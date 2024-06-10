@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>赵振翔先生的奢华旅行公众号</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: linear-gradient(45deg, #ffd700, #ffa500);
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+        .content {
+            padding: 20px;
+        }
+        .section {
+            background: #fff;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            border-bottom: 2px solid #ffa500;
+            padding-bottom: 10px;
+            font-size: 1.5em;
+        }
+        .section p {
+            font-size: 1.1em;
+            line-height: 1.6em;
+        }
+        .article-list {
+            list-style: none;
+            padding: 0;
+        }
+        .article-list li {
+            margin-bottom: 10px;
+            padding: 10px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .article-list a {
+            color: #333;
+            text-decoration: none;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .article-list a:hover {
+            text-decoration: underline;
+        }
+        .contacts {
+            text-align: center;
+        }
+        .contacts a {
+            display: inline-block;
+            margin: 10px;
+            color: #ffa500;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>赵振翔先生的奢华旅行</h1>
+    </header>
+    <div class="content">
+        <div class="section">
+            <h2>关于赵振翔先生</h2>
+            <p>欢迎来到赵振翔先生的奢华旅行公众号！我是赵振翔，旅游业大亨，热衷于探索世界的美景和奢华生活。在这里，我将分享我的旅行经历和生活故事。</p>
+        </div>
+        <div class="section">
+            <h2>最新文章</h2>
+            <ul class="article-list">
+                <li><a href="#">探索巴厘岛的豪华度假村</a></li>
+                <li><a href="#">乘坐私人飞机环游世界</a></li>
+                <li><a href="#">迪拜的奢华购物体验</a></li>
+                <li><a href="#">我的顶级美食之旅</a></li>
+            </ul>
+        </div>
+        <div class="section contacts">
+            <h2>关注我们</h2>
+            <a href="#">微信</a>
+            <a href="#">微博</a>
+            <a href="#">Instagram</a>
+        </div>
+    </div>
+</body>
+</html>
